@@ -104,7 +104,7 @@ header h1{
 }
 nav{
 	float: right;
-	padding: 27px 0;
+	padding: 18px 0;
 }
 
 nav ul{
@@ -131,6 +131,10 @@ nav ul li{
 #talent{
 	background: #001920;
 	color: #f0f1eb;
+}
+
+#talent ul{
+	text-align: right;
 }
 
 #venue{
