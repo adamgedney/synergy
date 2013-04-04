@@ -160,6 +160,7 @@ h2 + h3{
 .landing{
 	background: url("../images/bg.jpg") no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	padding-top: 108px;
 }
 
