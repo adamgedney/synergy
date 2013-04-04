@@ -14,7 +14,7 @@
 	box-sizing: border-box; }
 
 /* MAIN CONTAINER */
-.container						{ margin: 0 auto; }
+.container						{ margin: 0 auto;}
 
 
 /* SELF CLEARING FLOATS - CLEARFIX METHOD */
@@ -27,7 +27,7 @@
 
 
 /* DEFAULT ROW STYLES */
-.row { margin-bottom: 1.5em; } /* set according to preference*/
+.row { margin-bottom: 1.5em; padding-left: 2%; padding-right: 2%; } /* set according to preference*/
 			
 								  
 /* DEFAULT COLUMN STYLES */

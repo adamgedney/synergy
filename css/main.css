@@ -1,13 +1,20 @@
-
-
-
-
 /* 	Copyright Adam Gedney 3/31/13
 	contact: adam.gedney@gmail.com
 	http://adamgedney.com
 
 "Good UI design is humble.” – Jono DiCarlo
 */
+
+
+/*================Colors===================
+
+dark blue		#001920
+anchor blue		#00627d
+body 			#f0f1eb
+text 			#001920
+
+==========================================*/
+
 
 /*--------------------------------------Start CSS Reset---------------------------------------------*/
 
@@ -45,43 +52,119 @@ list-style: none;
 
 
 body{
-background: #fafafa;
-color: #6e6e6e;
-font: 62.5% "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+background: #f0f1eb;
+color: #001920;
+font: 62.5% 'Ubuntu', "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 }
 
 h1{
-font-size: 6.9em;
+font-size: 7.2em;
 line-height: 1.1em;
 }
 
 h2{
-font-size: 2.6em;
+font-size: 2.7em;
 line-height: 1.14em;
 }
 
 h3{
-font-size: 1.6em;
+font-size: 2.1em;
 line-height: 1.8em;
 }
 
 p, ul, dl{
-font-size: 1.4em;
-line-height: 1.6;
-margin-bottom: 20px;
+font-size: 1.8em;
+line-height: 1.5;
 }
 
 ul{
-line-height: 1.3em;
+line-height: 1.3;
 }
 
 a{
 text-decoration: none;
-color: #08298A;
+color: #00627d;
 }
 
 
-/*--------------------------------------End General / Start Main------------------------------------*/
+/*--------------------------------------/General - Start Main------------------------------------*/
+
+header, footer, .landing{
+	color: #f0f1eb;
+	overflow: hidden;
+	background: #001920;
+}
+
+header h1{
+	background: url("../images/logo.png") no-repeat;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	float: left;
+}
+nav{
+	float: right;
+	padding: 27px 0;
+}
+
+nav ul{
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+	padding: 10px;
+}
+
+.page, .landing{
+	padding: 72px 0;
+}
+
+.landing{
+	background: url("../images/bg.jpg") no-repeat;
+	background-size: cover;
+}
+
+.landing ul{
+}
+
+#talent{
+	background: #001920;
+	color: #f0f1eb;
+}
+
+#venue{
+
+}
+
+footer p{
+	width: 40.5%;
+	margin: 0 auto;
+	padding: 54px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
