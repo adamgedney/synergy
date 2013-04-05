@@ -185,6 +185,7 @@ h2 + h3{
 
 .landing.fliers{
 	background: #000;
+	min-height: 100%;
 }
 
 .landing .row:first-child{
