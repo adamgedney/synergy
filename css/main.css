@@ -85,6 +85,7 @@ line-height: 1.3;
 
 a, #talent a:hover{
 text-decoration: none;
+outline: none;
 color: #00627d;
 }
 
@@ -96,6 +97,11 @@ a:hover, #talent a{
 	color: #f0f1eb;
 	transition-duration: 1s;
 }
+
+strong{
+	font-weight: 700;
+}
+
 
 /*--------------------------------------/General - Start Main------------------------------------*/
 
@@ -186,6 +192,23 @@ h2 + h3{
 	text-align: right;
 	line-height: 2.1;
 }
+
+#about .span_12 img{
+	display: block;
+	width: 145px;
+	margin: 0 auto;
+}
+
+#about .mission{
+	width: 57.5%;
+	margin: 0 auto;
+	float: none;
+	font-size: 1.6em;
+	text-align: center;
+	padding: 18px;
+}
+
+
 
 #talent{
 	background: #001920 url("../images/talent-bg.png") no-repeat top left;
