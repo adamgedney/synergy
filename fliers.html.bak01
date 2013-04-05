@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Synergy Event Production</title>
+	<meta charset="utf-8" />
+	<link type="text/plain" rel="author" href="/humans.txt" />
+	<link rel="shortcut icon" href="http://adamshields.com/favicon.ico" />
+
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'><!-- Google Webfont -->
+
+	<link rel="stylesheet" href="css/responsive-gs-12col.css" /><!-- responsive.gs grid system -->
+	<link rel="stylesheet" href="css/ie.css" /><!-- resopnsive.gs grid system -->
+	<link rel="stylesheet" href="css/main.css" />
+
+
+
+
+
+
+</head>
+	<body>
+		<header>
+			<a href="index.html" title="Synergy" ><h1>Synergy Industries</h1></a>
+				<nav>
+					<ul>
+						<li><a href="index.html#talent" >Talent</a></li>
+						<li><a href="index.html#venues" >Venues</a></li>
+						<li><a href="fliers.html" >Fliers</a></li>
+						<li><a href="index.html#contact" >Contact</a></li>
+					</ul>
+				</nav>
+		</header>
+<div class="container">
+
+	<div class="landing" >
+
+		<div class="row" >
+
+			<div class="span_12" >
+
+				
+
+
+				
+
+			</div><!-- /.col .span_12 -->
+			
+		</div><!-- /.row -->
+
+	</div><!-- /.landing -->
+
+</div><!-- /.container -->
+			
+		<footer>
+			<p>&copy; Copyright 2013 Synergy Industries <a id="contact" href="mailto:synergypro@gmail.com" title="Contact Synergy Industries" >synergypro@gmail.com</a></p>
+		</footer>
+	</body>
+</html>
