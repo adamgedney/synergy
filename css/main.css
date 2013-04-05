@@ -52,10 +52,18 @@ list-style: none;
 
 
 body{
-background: #f0f1eb;
 color: #001920;
 font: 62.5% 'Ubuntu', "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 font-weight: 100;
+background: #f0f1eb; /* Old browsers */
+background: -moz-linear-gradient(left,  #d5d6d1 0%, #f0f1eb 14%, #f0f1eb 49%, #f0f1eb 86%, #d5d6d1 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d5d6d1), color-stop(14%,#f0f1eb), color-stop(49%,#f0f1eb), color-stop(86%,#f0f1eb), color-stop(100%,#d5d6d1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #d5d6d1 0%,#f0f1eb 14%,#f0f1eb 49%,#f0f1eb 86%,#d5d6d1 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #d5d6d1 0%,#f0f1eb 14%,#f0f1eb 49%,#f0f1eb 86%,#d5d6d1 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #d5d6d1 0%,#f0f1eb 14%,#f0f1eb 49%,#f0f1eb 86%,#d5d6d1 100%); /* IE10+ */
+background: linear-gradient(to right,  #d5d6d1 0%,#f0f1eb 14%,#f0f1eb 49%,#f0f1eb 86%,#d5d6d1 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5d6d1', endColorstr='#d5d6d1',GradientType=1 ); /* IE6-9 */
+
 }
 
 h1{

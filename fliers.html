@@ -33,12 +33,18 @@ $('html,body').animate({scrollTop: $(id).offset().top},'slow');
 			<a href="index.html" title="Synergy" ><h1>Synergy Industries</h1></a>
 				<nav>
 					<ul>
-						<li><a href="index.html#talent" >Talent</a></li>
-						<li><a href="index.html#venues" >Venues</a></li>
+						<li><a class="slow-jump" href="index.html#talent" >Talent</a></li>
+						<li><a class="slow-jump" href="index.html#venues" >Venues</a></li>
 						<li><a href="fliers.html" >Fliers</a></li>
-						<li><a href="index.html#contact" >Contact</a></li>
+						<li><a class="slow-jump" href="index.html#contact" >Contact</a></li>
 					</ul>
 				</nav>
+									<script>$(document).ready(function(){
+									$('a.slow-jump').click(function(){
+									goToByScroll($(this).attr('href'));
+									return false;
+									});
+									});</script>
 		</header>
 <div class="container">
 

@@ -27,12 +27,18 @@ $('html,body').animate({scrollTop: $(id).offset().top},'slow');
 			<a href="index.html" title="Synergy" ><h1>Synergy Industries</h1></a>
 				<nav>
 					<ul>
-						<li><a href="#talent" >Talent</a></li>
-						<li><a href="#venues" >Venues</a></li>
+						<li><a class="slow-jump" href="#talent" >Talent</a></li>
+						<li><a class="slow-jump" href="#venues" >Venues</a></li>
 						<li><a href="fliers.html" >Fliers</a></li>
-						<li><a href="#contact" >Contact</a></li>
+						<li><a class="slow-jump" href="#contact" >Contact</a></li>
 					</ul>
 				</nav>
+									<script>$(document).ready(function(){
+									$('a.slow-jump').click(function(){
+									goToByScroll($(this).attr('href'));
+									return false;
+									});
+									});</script>
 		</header>
 <div class="container">
 	<div class="landing" >
@@ -74,7 +80,7 @@ $('html,body').animate({scrollTop: $(id).offset().top},'slow');
 
 		<div class="row" >
 				<div class="col span_12 mission" >
-					<p><strong>Est. 1997, Synergy Industries</strong> has been a staple in the northeast dance music scene. With almost 50 events ranging from a few hundred to thousands,  its focus has always been on showcasing the freshest talent with a top notch production. Synergy Industries has teamed up with Snap Music it's next evolution of premiere music festivals. </p>
+					<p><strong>Est. 1997, Synergy Industries</strong> has been a staple in the northeast dance music scene. With almost 50 events ranging from a few hundred to thousands,  its focus has always been on showcasing the freshest talent with a top notch production. Synergy Industries has teamed up with Snap Music for it's next evolution of premier music festivals. </p>
 				</div><!-- /.col .span_12 -->
 		</div><!-- /.row -->
 		<div class="row" ></div><!-- /.row -->
@@ -82,12 +88,6 @@ $('html,body').animate({scrollTop: $(id).offset().top},'slow');
 
 
 	<div class="page" id="talent">
-									<script>$(document).ready(function(){
-									$('#talent').click(function(){
-									goToByScroll($(this).attr('href'));
-									return false;
-									});
-									});</script>
 
 		<div class="row" >
 			<div class="col span_7" >
@@ -197,12 +197,7 @@ $('html,body').animate({scrollTop: $(id).offset().top},'slow');
 	</div><!-- /.page -->
 
 	<div class="page" id="venues" >
-									<script>$(document).ready(function(){
-									$('#venues').click(function(){
-									goToByScroll($(this).attr('href'));
-									return false;
-									});
-									});</script>
+
 		<div class="row" >
 			<div class="col span_7" >
 				<h2>Venues</h2>
@@ -251,12 +246,6 @@ $('html,body').animate({scrollTop: $(id).offset().top},'slow');
 			
 		<footer>
 			<p>&copy; Copyright 2013 Synergy Industries <a id="contact" href="mailto:synergypro@gmail.com" title="Contact Synergy Industries" >synergypro@gmail.com</a></p>
-									<script>$(document).ready(function(){
-									$('#contact').click(function(){
-									goToByScroll($(this).attr('href'));
-									return false;
-									});
-									});</script>
 		</footer>
 	</body>
 </html>
