@@ -166,6 +166,27 @@ h2 + h3{
 	margin-bottom: 36px;
 }
 
+/*-------------------------------------Header Media adjustment--------------------------*/
+@media ( max-width : 673px ) {
+
+header h1{
+	clear: both;
+	display: block;
+	float: none;
+	width: 100%;
+}
+
+nav{
+	float: left;
+}
+
+nav ul li{
+	padding-right: 12px ;
+	padding-left: 12px ;
+}
+}
+
+/*------------------------------------- / Header Media adjustment--------------------------*/
 .page, .landing{
 	padding: 54px 0;
 }
