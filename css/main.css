@@ -50,6 +50,9 @@ list-style: none;
 
 /*--------------------------------------End CSS Reset / Start General-------------------------------*/
 
+html{
+	background: #000;
+}
 
 body{
 color: #001920;
