@@ -161,8 +161,7 @@ nav ul li:last-child{
 	padding-right: 0;
 }
 
-h2 + h3{
-	font-weight: 400;
+h2 + p{
 	margin-bottom: 36px;
 }
 
@@ -216,7 +215,7 @@ nav ul li{
 	margin-bottom: 108px;
 }
 
-.landing .row:last-child .col{
+.landing .row:nth-child(2) .col{
 	float: right;
 	margin-left: 2%;
 }
@@ -224,6 +223,11 @@ nav ul li{
 .landing ul{
 	text-align: right;
 	line-height: 2.1;
+}
+
+.landing .row .span_2.scroll{
+	width: 100%;
+	text-align: center;
 }
 
 #about .span_12 img{
